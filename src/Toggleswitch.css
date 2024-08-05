@@ -1,0 +1,53 @@
+.toggle-switch-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.switch {
+  width: 50px;
+  height: 25px;
+  background-color: grey;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.switch-on {
+  background-color: green;
+}
+
+.switch-off {
+  background-color: red;
+}
+
+.slider {
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  transition: left 0.3s;
+}
+
+.slider-on {
+  left: 26px;
+}
+
+.slider-off {
+  left: 1px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-image {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
