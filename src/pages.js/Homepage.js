@@ -11,7 +11,11 @@ function HomePage() {
         <li><Link to="/real-time-input">Real-time Input</Link></li>
         <li><Link to="/list-component">List Component</Link></li>
         <li><Link to="/todo-list">To-Do List</Link></li>
-       
+        <li><Link to="/toggle-switch">ToggleSwitch</Link></li>
+        <li><Link to="/routing">Routing</Link></li>
+        <li><Link to="/timer">Timer</Link></li>
+        <li><Link to="/dynamicbackground">DynamicBackground</Link></li>
+         
       </ul>
     </div>
   );
